@@ -33,7 +33,9 @@ text-decoration: none;}
 width: 100%;
 margin: 0 auto;}
 
-header .container, section .container
+header .container, 
+section .container,
+section .container .contact-sections
 {display: flex;
 align-items: center;
 justify-content: space-between;}
@@ -81,7 +83,7 @@ margin-right: 8px;}
 #contact .container 
 {display: block;}
 
-.contact-methods
+.contact-methods  
 {display: flex;
 justify-content: space-between;}
 
